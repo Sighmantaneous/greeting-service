@@ -17,7 +17,7 @@ public class GreetingController {
 
     @GetMapping("/api/greet/{name}")
     public String greet(@PathVariable String name) {
-        return "Hello " + name + "from service A!!";
+        return "Hello " + name + " from service A!!";
     }
 
 }
